@@ -108,7 +108,7 @@ Frontend runs on:
 
 ## Simple architecture diagram
 
-    User
+             User
               │
               ▼
               Frontend (React)
