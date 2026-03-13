@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "https://agentversex.onrender.com/";
+const API_BASE = "https://agentversex.onrender.com";
 
 export async function explainWithGemini(text) {
   const res = await axios.post(`${API_BASE}/api/ai/explain`, { text });
@@ -39,6 +39,9 @@ export async function addReview(agentId, payload) {
 }
 
 export async function hireAgent(agentId, payload) {
-  const res = await axios.post(`${API_BASE}/api/agents/${agentId}/hire`, payload);
+  const res = await axios.post(
+    `${API_BASE}/api/agents/${agentId}/hire`,
+    payload
+  );
   return res.data;
 }
