@@ -1,0 +1,9 @@
+{
+  "name": "agentmarket-monorepo",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev": "echo Run backend and frontend in separate terminals",
+    "build": "npm --prefix frontend run build"
+  }
+}

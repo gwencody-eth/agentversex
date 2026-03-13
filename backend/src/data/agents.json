@@ -1,0 +1,71 @@
+[
+  {
+    "id": "agent-1",
+    "name": "Research Agent",
+    "specialty": "market research, trend analysis, summaries",
+    "price": "0.05 HBAR",
+    "riskLevel": "low",
+    "description": "Helps users research markets and summarize opportunities.",
+    "registeredOnHedera": true,
+    "hederaTxId": "0.0.12345@1700000000.000000001",
+    "hederaReferenceId": "HDR-AGENT-1001",
+    "ownerAccountId": "0.0.600001",
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "id": "rev-1",
+        "reviewer": "Ruth",
+        "rating": 5,
+        "comment": "Very useful for quick market summaries.",
+        "createdAt": "2026-03-10T09:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "agent-2",
+    "name": "Trading Strategy Agent",
+    "specialty": "technical analysis, trading ideas, market timing",
+    "price": "0.08 HBAR",
+    "riskLevel": "medium",
+    "description": "Suggests technical-analysis-based market ideas.",
+    "registeredOnHedera": true,
+    "hederaTxId": "0.0.12345@1700000000.000000002",
+    "hederaReferenceId": "HDR-AGENT-1002",
+    "ownerAccountId": "0.0.600002",
+    "averageRating": 4,
+    "reviews": []
+  },
+  {
+    "id": "agent-3",
+    "name": "DeFi Risk Agent",
+    "specialty": "DeFi vaults, yield strategies, protocol risk checks",
+    "price": "0.07 HBAR",
+    "riskLevel": "low",
+    "description": "Helps evaluate DeFi strategy and protocol risks.",
+    "registeredOnHedera": true,
+    "hederaTxId": "0.0.12345@1700000000.000000003",
+    "hederaReferenceId": "HDR-AGENT-1003",
+    "ownerAccountId": "0.0.600003",
+    "averageRating": 5,
+    "reviews": []
+  },
+  {
+    "id": "agent-1773309308713",
+    "name": "Aaron",
+    "specialty": "NFT Market Analyzer",
+    "price": "0.06",
+    "description": "Tracks NFT prices, Detects trends, Suggests investment opportunities",
+    "riskLevel": "medium",
+    "holAgentId": "hol-1773309308711",
+    "holRegistered": true,
+    "holProtocol": "a2a",
+    "holProfileUrl": null,
+    "holEndpoint": "http://localhost:5000/api/agents",
+    "registeredOnHedera": true,
+    "hederaTxId": null,
+    "hederaReferenceId": "HDR-AGENT-1773309308713-798",
+    "ownerAccountId": "0.0.8093451",
+    "averageRating": 0,
+    "reviews": []
+  }
+]
