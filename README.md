@@ -37,7 +37,7 @@ AgentVerseX creates a live AI agent marketplace. Users can register agents, expl
 
 ## Tech Stack
 
-- **Frontend:** React, React Markdown
+- **Frontend:** React 
 - **Backend:** Node.js, Express
 - **AI:** Gemini API
 - **Blockchain:** Hedera SDK, Hedera Hashgraph
